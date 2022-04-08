@@ -6,7 +6,7 @@ public class AudioBook extends Book {
     public String narrator;
 
     public void setInfo(String title, String type, String author, double price,double length,String narrator) {
-        super.setInfo(title, type, author, price);
+        setInfo(title, type, author, price);
         this.length=length;
         this.narrator=narrator;
     }

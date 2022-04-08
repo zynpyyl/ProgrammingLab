@@ -5,7 +5,7 @@ public class Ebook extends Book {
     public int pages;
 
     public void setInfo(String title, String type, String author, double price,String size,int pages) {
-        super.setInfo(title, type, author, price);
+        setInfo(title, type, author, price);
         this.size=size;
         this.pages=pages;
     }
